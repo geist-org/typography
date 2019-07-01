@@ -1,6 +1,6 @@
 {
   "name": "@zeit-ui/typographic",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "main": "index.css",
   "module": "index.css",
   "style": "index.css",
@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/zeit-ui/normalize.git"
+    "url": "git+https://github.com/zeit-ui/typographic.git"
   },
   "author": "WittBulter (lambdas.dev@gmail.com)",
   "devDependencies": {
