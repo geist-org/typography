@@ -1,0 +1,15 @@
+{
+  "name": "@zeit-ui/typographic",
+  "version": 2,
+  "alias": "typographic",
+  "github": {
+    "silent": true
+  },
+  "builds": [
+    { "src": "package.json", "use": "@now/static-build", "config": { "distDir": "dist" } }
+  ],
+  "routes": [
+    {"src": ".ico", "dest": "/favicon.ico"},
+    {"src": ".html", "dest": "/index.html"}
+  ]
+}

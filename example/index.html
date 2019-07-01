@@ -1,0 +1,110 @@
+<html lang="en">
+<head>
+  <title>Typographic</title>
+  <meta charset="utf-8">
+  <link rel="icon" href="favicon.ico">
+  <meta name="viewport" content="initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, viewport-fit=cover">
+  <style>
+    .main {
+      margin: 40px auto; max-width: 1000px; width: 70%;
+    }
+    .main > h3 {
+      margin-top: 30px;
+    }
+    .card {
+      max-width: 92%; margin: 0 auto; padding: calc(var(--geist-gap) / 2) 0;
+      border-radius: var(--geist-radius);
+      border: 1px solid var(--accents-2);
+      width: var(--geist-page-width-with-margin);
+      padding-left: var(--geist-page-margin);
+      padding-right: var(--geist-page-margin);
+    }
+  </style>
+</head>
+<body>
+<div class="main">
+  <h2>@zeit-ui/typographic</h2>
+  <div>
+    <p>You can get the Typographic style from Zeit design here. And support <a href="javascript:;" onclick="toggleTheme()">dark mode</a>.
+    (add <code>class="dark-theme"</code> to <code>html</code> tag to switch dark mode.)</p>
+    <p class="zi-title">Use by CDN:</p>
+    <pre><code>&lt;script src="https://cdn.jsdelivr.net/npm/@zeit-ui/typographic@latest/umd.css"&gt;&lt;/script&gt;</code></pre>
+  </div>
+  <hr>
+  <h3>Headings</h3>
+  <div class="card">
+    <h1>Title display &lt;h1&gt;</h1>
+    <h2>Title display &lt;h2&gt;</h2>
+    <h3>Title display &lt;h3&gt;</h3>
+    <h4>Title display &lt;h4&gt;</h4>
+    <h5>Title display &lt;h5&gt;</h5>
+    <h6>Title display &lt;h6&gt;</h6>
+  </div>
+
+  <h3>Paragraph</h3>
+  <div class="card">
+    <p>func is a modern command line framework that is lighter and more elegant compared with other products, with more scaffolding support and an excellent developer experience at the same time.</p>
+    <p><b>func is a modern command line framework that is lighter and more elegant compared with other products, with more scaffolding support and an excellent developer experience at the same time.</b></p>
+  </div>
+
+  <h3>Small</h3>
+  <div class="card">
+    <small>func is a modern command line framework that is lighter and more elegant compared with other products, with more scaffolding support and an excellent developer experience at the same time.</small>
+    <small><b>func is a modern command line framework that is lighter and more elegant compared with other products, with more scaffolding support and an excellent developer experience at the same time.</b></small>
+  </div>
+
+  <h3>List</h3>
+  <div class="card">
+    <ul>
+      <li>Static websites and static generators (React, Vue, Angular, etc)</li>
+      <li>Code that renders HTML on the server-side</li>
+      <li>API endpoints that query databases or web APIs and return dynamic data</li>
+    </ul>
+
+    <ol>
+      <li>Static websites and static generators (React, Vue, Angular, etc)</li>
+      <li>Code that renders HTML on the server-side</li>
+      <li>API endpoints that query databases or web APIs and return dynamic data</li>
+    </ol>
+  </div>
+
+  <h3>Code</h3>
+  <div class="card">
+    The <code>func</code> provides the installation script and the default template of an item.
+  </div>
+
+  <h3>Code Block</h3>
+  <div class="card">
+    <pre><code>npm init func</code></pre>
+  </div>
+
+  <h3>Link</h3>
+  <div class="card">
+    <a href="">Learn more at github</a>
+  </div>
+
+  <h3>Help</h3>
+  <div class="card">
+    <p class="zi-title">
+      This is a title &lt;div class="zi-title"&gt;
+    </p>
+    <p class="zi-subtitle">
+      This is a subtitle &lt;div class="zi-subtitle"&gt;
+    </p>
+  </div>
+  <br>
+  <br>
+  <br>
+  <hr>
+  <p>This project is open-sourced on <a target="_blank" href="https://github.com/zeit-ui/typographic">GitHub</a>.</p>
+</div>
+
+<script>
+window.toggleTheme = () => {
+  const html = document.querySelector('html')
+  const next = html.classList.contains('dark-theme') ? '' : 'dark-theme'
+  html.setAttribute('class', next)
+}
+</script>
+</body>
+</html>

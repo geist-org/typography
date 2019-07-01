@@ -1,0 +1,36 @@
+{
+  "name": "@zeit-ui/typographic",
+  "version": "0.0.1",
+  "main": "index.css",
+  "module": "index.css",
+  "style": "index.css",
+  "license": "MIT",
+  "scripts": {
+    "start": "webpack-dev-server --config ./scripts/webpack.dev.js --progress",
+    "build": "rm -rf ./dist && webpack --config ./scripts/webpack.prod.js --progress --hide-modules true",
+    "release": "yarn run build && cp README.md package.json dist/ && cd dist && yarn publish --access public --non-interactive",
+    "now-build": "rm -rf ./dist && webpack --config ./scripts/webpack.ex.js --progress --hide-modules true"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zeit-ui/normalize.git"
+  },
+  "author": "WittBulter (lambdas.dev@gmail.com)",
+  "devDependencies": {
+    "@zeit-ui/themes": "^0.1.0",
+    "css-loader": "^3.0.0",
+    "html-inline-css-webpack-plugin": "^1.6.0",
+    "html-webpack-plugin": "^4.0.0-beta.5",
+    "mini-css-extract-plugin": "^0.7.0",
+    "optimize-css-assets-webpack-plugin": "^5.0.3",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^3.0.2",
+    "webpack": "^4.35.0",
+    "webpack-cli": "^3.3.5",
+    "webpack-dev-server": "^3.7.2",
+    "webpack-merge": "^4.2.1"
+  },
+  "peerDependencies": {
+    "@zeit-ui/themes": "^0.1.0"
+  }
+}

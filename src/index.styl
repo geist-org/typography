@@ -1,0 +1,129 @@
+@import "./normalize.styl"
+
+html, body
+  background-color var(--geist-background)
+  color var(--geist-foreground)
+
+body
+  font-family var(--font-sans)
+
+p, small, .zi-title, .zi-subtitle
+  letter-spacing: -0.005625rem
+  font-size 0.875rem
+  line-height 1.5
+  font-family var(--font-sans)
+
+p
+  margin 1rem 0
+
+small
+  margin 0
+
+a
+  color var(--geist-link-color)
+  text-decoration none
+
+  &:hover
+    text-decoration underline
+
+h1, h2, h3, h4, h5, h6
+  font-family var(--font-sans)
+  margin-bottom .625rem
+
+h1
+  font-size 3rem
+  letter-spacing: -.066875rem
+  line-height 1.5
+  font-weight 700
+
+h2
+  font-size 2.25rem
+  letter-spacing -.020625rem
+  font-weight 600
+
+h3
+  font-size 1.5rem
+  letter-spacing -.029375rem
+  font-weight 600
+
+h4
+  font-size 1.25rem
+  letter-spacing -0.020625rem
+  font-weight 600
+
+h5
+  font-size 1rem
+  letter-spacing -0.01125rem
+  font-weight 600
+
+h6
+  font-size 0.875rem
+  letter-spacing -.005625rem
+  font-weight 600
+
+selection
+  background-color var(--geist-selection)
+  color var(--geist-foreground)
+
+input-webkit-autofill
+  box-shadow 0 0 0 100px var(--geist-background) inset
+
+ul, ol
+  margin 1rem 0 1rem 0.9375rem
+  color var(--geist-foreground)
+
+li
+  margin-bottom .625rem
+  font-size 1em
+  line-height 1.625em
+
+ul
+  li
+    &:before
+      content '–'
+      display inline-block
+      color var(--accents-4)
+      position absolute
+      margin-left -0.9375rem
+
+code
+  color var(--geist-code)
+  font-family var(--font-mono)
+  font-size 0.9rem
+  white-space pre-wrap
+
+code
+  &:before
+    content '`'
+  &:after
+    content '`'
+
+pre
+  border 1px solid var(--accents-2)
+  border-radius var(--geist-radius)
+  padding 1.25rem
+  margin 1.5rem 0
+  white-space pre
+  overflow auto
+  -webkit-overflow-scrolling touch
+
+  code
+    color var(--geist-foreground)
+    font-size 0.8125rem
+    line-height 1.25rem
+
+    &:before, &:after
+      display none
+
+hr
+  border-color var(--accents-2)
+
+.zi-title
+  text-transform uppercase
+  color var(--accents-4)
+
+.zi-subtitle
+  color var(--accents-3)
+  font-size .8125rem
+
+
