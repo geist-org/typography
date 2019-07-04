@@ -23,8 +23,6 @@ module.exports = merge(base, {
       cssProcessor: require('cssnano'),
       cssProcessorOptions: {
         discardComments: { removeAll: true },
-        safe: true,
-        autoprefixer: true,
       },
     }),
   ],
