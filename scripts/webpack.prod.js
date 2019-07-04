@@ -19,7 +19,7 @@ module.exports = merge(base, {
     }),
     
     new OptimizePlugin({
-      assetNameRegExp: /\.css\.*(?!.*map)/g,
+      assetNameRegExp: /umd\.css\.*(?!.*map)/g,
       cssProcessor: require('cssnano'),
       cssProcessorOptions: {
         discardComments: { removeAll: true },
