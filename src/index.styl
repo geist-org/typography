@@ -79,12 +79,16 @@ li
 
 ul
   li
+    position relative
+
     &:before
       content '–'
       display inline-block
       color var(--accents-4)
       position absolute
       margin-left -0.9375rem
+      top 50%
+      transform translateY(-50%)
 
 code
   color var(--geist-code)
