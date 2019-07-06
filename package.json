@@ -1,6 +1,6 @@
 {
   "name": "@zeit-ui/typographic",
-  "version": "0.2.4",
+  "version": "0.2.5",
   "main": "index.css",
   "module": "index.css",
   "style": "index.css",
