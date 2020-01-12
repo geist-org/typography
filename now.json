@@ -5,11 +5,8 @@
   "github": {
     "silent": true
   },
-  "builds": [
-    { "src": "package.json", "use": "@now/static-build", "config": { "distDir": "dist" } }
-  ],
-  "routes": [
-    {"src": ".ico", "dest": "/favicon.ico"},
-    {"src": ".html", "dest": "/index.html"}
+  "rewrites": [
+    { "source": ".html", "destination": "/index.html" },
+    { "source": ".ico", "destination": "/favicon.ico" }
   ]
 }
