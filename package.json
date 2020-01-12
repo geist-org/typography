@@ -9,17 +9,17 @@
     "start": "webpack-dev-server --config ./scripts/webpack.dev.js --progress",
     "build": "rm -rf ./dist && webpack --config ./scripts/webpack.prod.js --progress --hide-modules true",
     "release": "yarn run build && cp README.md package.json dist/ && cd dist && yarn publish --access public --non-interactive",
-    "now-build": "rm -rf ./dist && webpack --config ./scripts/webpack.ex.js --progress --hide-modules true"
+    "now-build": "rm -rf ./dist ./public && webpack --config ./scripts/webpack.ex.js --progress --hide-modules true && cp -r ./dist ./public"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/zeit-ui/typographic.git"
   },
-  "author": "WittBulter (lambdas.dev@gmail.com)",
+  "author": "unix (lambdas.dev@gmail.com)",
   "devDependencies": {
     "@zeit-ui/themes": "^0.1.0",
     "css-loader": "^3.0.0",
-    "html-inline-css-webpack-plugin": "^1.6.0",
+    "html-inline-css-webpack-plugin": "^1.8.0",
     "html-webpack-plugin": "^4.0.0-beta.5",
     "mini-css-extract-plugin": "^0.7.0",
     "optimize-css-assets-webpack-plugin": "^5.0.3",

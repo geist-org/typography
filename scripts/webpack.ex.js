@@ -80,7 +80,7 @@ module.exports = {
     
     new HtmlPlugin({
       template: util.join('example/index.html'),
-      excludeChunks: ['main'],
+      // excludeChunks: ['main'],
       favicon: util.join('example/favicon.ico'),
       minify: {
         minifyJS: true,
