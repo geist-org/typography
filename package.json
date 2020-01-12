@@ -15,7 +15,7 @@
     "type": "git",
     "url": "git+https://github.com/zeit-ui/typographic.git"
   },
-  "author": "WittBulter (lambdas.dev@gmail.com)",
+  "author": "unix (lambdas.dev@gmail.com)",
   "devDependencies": {
     "@zeit-ui/themes": "^0.1.0",
     "css-loader": "^3.0.0",
