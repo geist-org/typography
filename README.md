@@ -27,7 +27,7 @@ you can choose the packaged UMD file on CDN (the umd package is still mini, â‰ˆâ
 
 ## Example
 
-  - [example site](https://typography.now.sh/)
+  - [example site](https://typography.zeit-ui.co/)
 
 ## License
 [MIT](https://raw.githubusercontent.com/zeit-ui/typography/master/LICENSE)
