@@ -1,34 +1,34 @@
-# Typographic for Zeit Design
+# Typography for Zeit Design
 
-> You can get the Typographic style from Zeit design here.
+> You can get the Typography style from Zeit design here.
 
 ## How to start
 
-`@zeit-ui/typographic` consists of `themes` and `typographic`. Package `themes` is the basic variables, Package `typographic` is the text styles.
+`@zeit-ui/typography` consists of `themes` and `typography`. Package `themes` is the basic variables, Package `typography` is the text styles.
 
 ### Used in npm project
 
-  1. Install `themes` and `typographic`: `npm i @zeit-ui/themes @zeit-ui/typographic`
-  
-  2. Import: 
+  1. Install `themes` and `typography`: `npm i @zeit-ui/themes @zeit-ui/typography`
+
+  2. Import:
   ```js
   import '@zeit-ui/themes'
-  import '@zeit-ui/typographic'
+  import '@zeit-ui/typography'
   ```
 
 ### Used by CDN
 
-Sometimes you just need a simple project, like only one `.html` file, 
+Sometimes you just need a simple project, like only one `.html` file,
 you can choose the packaged UMD file on CDN (the umd package is still mini, ≈≈ 1kb):
 
   ```
-  <script src="https://cdn.jsdelivr.net/npm/@zeit-ui/typographic@latest/umd.css"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@zeit-ui/typography@latest/umd.css"></script>
   ```
 
 ## Example
 
-  - [example site](https://typographic.now.sh/)
+  - [example site](https://typography.now.sh/)
 
 ## License
-[MIT](./LICENSE)
+[MIT](https://raw.githubusercontent.com/zeit-ui/typography/master/LICENSE)
 

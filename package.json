@@ -1,5 +1,5 @@
 {
-  "name": "@zeit-ui/typographic",
+  "name": "@zeit-ui/typography",
   "version": "1.0.0",
   "main": "index.css",
   "module": "index.css",
@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/zeit-ui/typographic.git"
+    "url": "git+https://github.com/zeit-ui/typography.git"
   },
   "author": "unix (lambdas.dev@gmail.com)",
   "devDependencies": {

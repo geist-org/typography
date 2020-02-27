@@ -1,7 +1,5 @@
 {
-  "name": "@zeit-ui/typographic",
   "version": 2,
-  "alias": "typographic",
   "github": {
     "silent": true
   },
