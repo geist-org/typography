@@ -1,12 +1,12 @@
 <html lang="en">
 <head>
-  <title>Typographic</title>
+  <title>Typography - ZEIT UI</title>
   <meta charset="utf-8">
   <link rel="icon" href="favicon.ico">
   <meta name="viewport" content="initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, viewport-fit=cover">
   <style>
     .main {
-      margin: 40px auto; max-width: 950px; width: 90%;
+      margin: 40px auto; max-width: 920px; width: 90%;
     }
     .main > h3 {
       margin-top: 30px;
@@ -23,14 +23,19 @@
 </head>
 <body>
 <div class="main">
-  <h2>@zeit-ui/typography</h2>
+  <h2>Typography - ZEIT UI</h2>
   <div>
-    <p>You can get the Typography style from Zeit design here. And support <a href="javascript:;" onclick="toggleTheme()">dark mode</a>.
+    <p>You can get the Typography style from ZEIT design here. And support <a href="javascript:;" onclick="toggleTheme()">DARK-MODE</a>.
     (add <code>class="dark-theme"</code> to <code>html</code> tag to switch dark mode.)</p>
-    <p class="zi-title">Use by CDN:</p>
+    <h4 style="margin-bottom: -15px; margin-top: 25px">Use by NPM:</h4>
+    <pre><code>import '@zeit-ui/themes'
+import '@zeit-ui/typography'</code></pre>
+    <h4 style="margin-bottom: -15px;">Use by CDN:</h4>
     <pre><code>&lt;script src="https://cdn.jsdelivr.net/npm/@zeit-ui/typography@latest/umd.css"&gt;&lt;/script&gt;</code></pre>
   </div>
+  <br>
   <hr>
+  <br>
   <h3>Headings</h3>
   <div class="card">
     <h1>Title display &lt;h1&gt;</h1>
@@ -40,18 +45,20 @@
     <h5>Title display &lt;h5&gt;</h5>
     <h6>Title display &lt;h6&gt;</h6>
   </div>
+  <br>
 
   <h3>Paragraph</h3>
   <div class="card">
     <p>func is a modern command line framework that is lighter and more elegant compared with other products, with more scaffolding support and an excellent developer experience at the same time.</p>
     <p><b>func is a modern command line framework that is lighter and more elegant compared with other products, with more scaffolding support and an excellent developer experience at the same time.</b></p>
   </div>
-
+  <br>
   <h3>Small</h3>
   <div class="card">
     <small>func is a modern command line framework that is lighter and more elegant compared with other products, with more scaffolding support and an excellent developer experience at the same time.</small>
     <small><b>func is a modern command line framework that is lighter and more elegant compared with other products, with more scaffolding support and an excellent developer experience at the same time.</b></small>
   </div>
+  <br>
 
   <h3>List</h3>
   <div class="card">
@@ -67,23 +74,27 @@
       <li>API endpoints that query databases or web APIs and return dynamic data</li>
     </ol>
   </div>
+  <br>
 
   <h3>Code</h3>
   <div class="card">
     The <code>func</code> provides the installation script and the default template of an item.
   </div>
+  <br>
 
   <h3>Code Block</h3>
   <div class="card">
     <pre><code>npm init func</code></pre>
   </div>
+  <br>
 
   <h3>Link</h3>
   <div class="card">
     <a href="https://github.com/zeit-ui/typography">Learn more at github</a>
   </div>
+  <br>
 
-  <h3>Help</h3>
+  <h3>Title</h3>
   <div class="card">
     <p class="zi-title">
       This is a title &lt;div class="zi-title"&gt;
