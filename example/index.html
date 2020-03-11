@@ -9,15 +9,15 @@
       margin: 40px auto; max-width: 920px; width: 90%;
     }
     .main > h3 {
-      margin-top: 30px;
+      margin: 30px auto 20px;
+      padding-left: 20px;
     }
     .card {
-      max-width: 92%; margin: 0 auto; padding: calc(var(--geist-gap) / 2) 0;
+      max-width: 92%; margin: 0 auto;
+      padding: var(--geist-gap-half) var(--geist-gap);
       border-radius: var(--geist-radius);
       border: 1px solid var(--accents-2);
       width: var(--geist-page-width-with-margin);
-      padding-left: var(--geist-page-margin);
-      padding-right: var(--geist-page-margin);
     }
   </style>
 </head>
@@ -25,13 +25,13 @@
 <div class="main">
   <h2>Typography - ZEIT UI</h2>
   <div>
-    <p>You can get the Typography style from ZEIT design here. And support <a href="javascript:;" onclick="toggleTheme()">DARK-MODE</a>.
+    <p>You can get the Typography style from ZEIT Design here. And support <a href="javascript:;" onclick="toggleTheme()">Dark Mode</a>.
     (add <code>class="dark-theme"</code> to <code>html</code> tag to switch dark mode.)</p>
     <h4 style="margin-bottom: -15px; margin-top: 25px">Use by NPM:</h4>
     <pre><code>import '@zeit-ui/themes'
 import '@zeit-ui/typography'</code></pre>
     <h4 style="margin-bottom: -15px;">Use by CDN:</h4>
-    <pre><code>&lt;script src="https://cdn.jsdelivr.net/npm/@zeit-ui/typography@latest/umd.css"&gt;&lt;/script&gt;</code></pre>
+    <pre><code>&lt;link href="https://cdn.jsdelivr.net/npm/@zeit-ui/typography@latest/umd.css" rel="stylesheet"></code></pre>
   </div>
   <br>
   <hr>
