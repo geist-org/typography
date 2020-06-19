@@ -1,6 +1,6 @@
 {
   "name": "@zeit-ui/typography",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "main": "index.css",
   "module": "index.css",
   "style": "index.css",
