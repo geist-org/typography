@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/geist-ui/typography.git"
+    "url": "git+https://github.com/geist-org/typography.git"
   },
   "author": "Geist Org",
   "devDependencies": {
