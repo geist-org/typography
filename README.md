@@ -1,21 +1,21 @@
-# Typography for ZEIT Design
+# Typography for Geist UI
 
-> You can get the Typography style from ZEIT design here.
+> You can get the Typography style from Geist UI here.
 
 <br/>
 
 ## How to start
 
-`@zeit-ui/typography` consists of `themes` and `typography`. Package `themes` is the basic variables, Package `typography` is the text styles.
+`@geist-ui/typography` consists of `themes` and `typography`. Package `themes` is the basic variables, Package `typography` is the text styles.
 
 ### Used by NPM
 
-  1. Install: `npm i @zeit-ui/themes @zeit-ui/typography`
+  1. Install: `npm i @geist-ui/themes @geist-ui/typography`
 
   2. Import:
   ```js
-  import '@zeit-ui/themes'
-  import '@zeit-ui/typography'
+  import '@geist-ui/themes'
+  import '@geist-ui/typography'
   ```
 
 ### Used by CDN
@@ -24,17 +24,17 @@ Sometimes you just need a simple project, like only one `.html` file,
 you can choose the packaged UMD file on CDN (the umd package is still mini, ≈≈ 1kb):
 
   ```
-  <script src="https://cdn.jsdelivr.net/npm/@zeit-ui/typography@latest/umd.css"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@geist-ui/typography@latest/umd.css"></script>
   ```
 
 <br/>
 
 ## Example
 
-  - [example site](https://typography.zeit-ui.co/)
+  - [example site](https://typography.geist-ui.co/)
 
 <br/>
 
 ## License
-[MIT](https://raw.githubusercontent.com/zeit-ui/typography/master/LICENSE)
+[MIT](https://raw.githubusercontent.com/geist-ui/typography/master/LICENSE)
 

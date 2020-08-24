@@ -1,6 +1,6 @@
 {
-  "name": "@zeit-ui/typography",
-  "version": "1.2.0",
+  "name": "@geist-ui/typography",
+  "version": "1.0.0",
   "main": "index.css",
   "module": "index.css",
   "style": "index.css",
@@ -13,11 +13,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/zeit-ui/typography.git"
+    "url": "git+https://github.com/geist-ui/typography.git"
   },
-  "author": "unix (lambdas.dev@gmail.com)",
+  "author": "Geist Org",
   "devDependencies": {
-    "@zeit-ui/themes": "^0.1.0",
+    "@geist-ui/themes": "^1.0.0",
     "css-loader": "^3.0.0",
     "html-inline-css-webpack-plugin": "^1.8.0",
     "html-webpack-plugin": "^4.0.0-beta.5",
@@ -31,6 +31,6 @@
     "webpack-merge": "^4.2.1"
   },
   "peerDependencies": {
-    "@zeit-ui/themes": "^0.1.0"
+    "@geist-ui/themes": ">0.1.0"
   }
 }
