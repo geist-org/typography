@@ -29,9 +29,9 @@ you can choose the packaged UMD file on CDN (the umd package is still mini, â‰ˆâ
 
 <br/>
 
-## Example
+## Documentation
 
-  - [example site](https://typography.geist-ui.co/)
+  - [Document Site](https://typography.geist-ui.dev/)
 
 <br/>
 
