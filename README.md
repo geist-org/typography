@@ -1,3 +1,5 @@
+## This project is no longer maintained and it is recommended to use [Geist UI](https://github.com/geist-org/geist-ui)
+
 # Typography for Geist UI
 
 > You can get the Typography style from Geist UI here.
